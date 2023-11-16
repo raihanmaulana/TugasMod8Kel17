@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TugasMod8Kel17</RootNamespace>
+    <StartupObject>TugasMod8Kel17.Form1</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TempConv">
+      <HintPath>..\..\..\..\..\..\..\..\source\repos\TempConvComp\TempConvComp\TempConv.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
